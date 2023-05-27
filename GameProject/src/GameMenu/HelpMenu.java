@@ -30,7 +30,7 @@ public class HelpMenu {
         JLabel who = new JLabel("PAC-MAN       GHOST");
         JLabel w = new JLabel("W                           ↑ ");
         JLabel a = new JLabel("A    S    D              ←    ↓    →");
-        JLabel htp = new JLabel("<html>How to play:<br>Pac-Man gets a point by going through blue tile.<br>Score 3 points, then Pac-Man can kill Ghost.<br>Ghost has to kill pacman before he takes all points.");
+        JLabel htp = new JLabel("<html>How to play:<br>Pac-Man gets a point by going through blue tile.<br>Score 3 points, then Pac-Man can kill Ghost.<br>Ghost must kill Pac-Man before he takes 3 points.</html>");
         JButton back = new JButton("BACK");
         back.setFocusable(false);
 

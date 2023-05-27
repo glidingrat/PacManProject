@@ -62,7 +62,7 @@ public class Game implements Runnable {
 
     public void checkCollision() {  //checks for collision
         if (enemy.collidesWith(player)){
-            if(player.getScore() == 3) {
+            if(player.getScore() >= 3) {
                 gameWindow.PM_WIN();
             } else {
                 gameWindow.GHOST_WIN();
